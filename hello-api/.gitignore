@@ -3,7 +3,11 @@
 /node_modules
 /build
 
-# Logs
+
+
+
+#Logs
+
 logs
 *.log
 npm-debug.log*
@@ -18,6 +22,7 @@ lerna-debug.log*
 # Tests
 /coverage
 /.nyc_output
+
 
 # IDEs and editors
 /.idea

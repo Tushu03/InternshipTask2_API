@@ -18,7 +18,11 @@ export class User {
   @Column({ unique: true })
   email: string;
 
+<<<<<<< HEAD
   @Column()
+=======
+  @Column({ nullable: true })
+>>>>>>> 7b778e8 (Add Google OAuth login with JWT authentication)
   password: string;
 
   @Column({
@@ -27,4 +31,15 @@ export class User {
     default: UserRole.PATIENT,
   })
   role: UserRole;
+<<<<<<< HEAD
+=======
+
+
+@Column({ nullable: true })
+googleId: string;
+
+@Column({ nullable: true })
+picture: string;
+
+>>>>>>> 7b778e8 (Add Google OAuth login with JWT authentication)
 }
